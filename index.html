@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EletricServices - Soluções Elétricas Profissionais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">EletricServices</div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <button class="btn-orcamento">Solicitar Orçamento</button>
+                <button class="menu-mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Energia com Segurança e Precisão</h1>
+            <p>Soluções elétricas para residências e empresas, 24h por dia</p>
+            <button class="btn-cta">Fale Conosco Agora</button>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Instalação Elétrica</h3>
+                    <p>Instalações completas e seguras para sua residência ou empresa</p>
+                </div>
+                <div class="servico-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Manutenção</h3>
+                    <p>Manutenção preventiva e corretiva de sistemas elétricos</p>
+                </div>
+                
+                <div class="servico-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Automação Residencial</h3>
+                    <p>Soluções inteligentes para sua casa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Section -->
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-grid">
+                <div class="produto-card">
+                    <img src="data:image/jpeg;base64,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sZ66QTnOEC7igDjnfJ8JJdNoq7N11sZCPa3VwHGd7PEc/DPHgT44I52nCxCT32J5cfQ/9ppdpXoBxOB7+Akf25p7O1zXqbEXhmsYbgDnu7wJGeRznhyweM19t9Vbb5IViAuOR58O7z8TxxJleVNujejUjt853shPLd5E/WDN9Nb0c/u1XDHA/Njx+PP4zZTbJERAREQEREBERAREQEREBERAT8ZQRgjI8vCfsQIrtrq62RqsmzRorHjv1ZqfPmTXje+OZA9s9RSHLaPWsvkl6Bh/7iYIH7JlzRA5g2t1bbb0h3/xZrAvEWaZt8g+YUYsH7sjL7M2jqrivY6m64YBDLa9gHIBt7iB6zsWIHNuwupLal+DqGr0yn849pZ+4nD62Esfo/1KbKow1+/qXH/MO7Xn3Vp4e4kyy4geXZ2zqNOgropSpB9GtFRfqUT1RECFdY12G0adqq77WfknX8nbuqvAt9FlySB45bymPobR2Ys/ICneOc728H/xeyMfP1ko25swaivsyRwO8N5QykgEYI5448xx5ekj2wdnfi3aK1aVMT4F7Fb38VGPTjMXjLUSjPTPTl7iPxZreHKu3s1PqMg59+JqtNpzWFHZV0cu6zb9vpyHD34m46W6B3tyNO9qkcTXaKqvipwc+gM8mxtjWMQtdKVKp4sWa0j3BjgH05+kkRLWU+2Nq93T1Dl3ftJOZ6xrZq9NpCqhRnAnvo0hnRzbHTXEz1zz6ejE9EBERAREQEREBERAREQEREBERAREQEREBERAREQE+La8z7iBqtXsrf5BB793J+rhMtGzVUBR4fX6zYRA86aUCZlQCfUQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQERED//2Q==" alt="Lâmpada LED">
+                    <h3>Lâmpada LED</h3>
+                    <p class="preco">R$ 29,90</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+                <div class="produto-card">
+                    <img src="data:image/jpeg;base64,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" alt="Disjuntor">
+                    <h3>Disjuntor 25A</h3>
+                    <p class="preco">R$ 45,90</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+                <div class="produto-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReb3jlqFHVN3Est88k_YwhS5AeodKub1aYHw&s" alt="Tomada">
+                    <h3>Tomada 20A</h3>
+                    <p class="preco">R$ 19,90</p>
+                    <button class="btn-comprar">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais Section -->
+    <section class="diferenciais">
+        <div class="container">
+            <h2>Por que nos escolher?</h2>
+            <div class="diferenciais-grid">
+                <div class="diferencial-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Atendimento 24h</h3>
+                    <p>Sempre prontos para atender sua emergência</p>
+                </div>
+                <div class="diferencial-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Garantia de Serviço</h3>
+                    <p>Todos os serviços são garantidos</p>
+                </div>
+                <div class="diferencial-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Técnicos Certificados</h3>
+                    <p>Profissionais altamente qualificados</p>
+                </div>
+                <div class="diferencial-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Orçamentos Rápidos</h3>
+                    <p>Resposta em até 24 horas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section -->
+    <section class="depoimentos">
+        <div class="container">
+            <h2>O que nossos clientes dizem</h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Margaret_Galland_Kivelson.png" alt="Cliente 1">
+                    <p>"Excelente atendimento e serviço de qualidade!"</p>
+                    <h4>João Silva</h4>
+                </div>
+                <div class="depoimento-card">
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/newr7/N6ABZUH35VLK5GKR5PA6NVTQIA.jpg" alt="Cliente 2">
+                    <p>"Profissionais muito competentes e pontuais."</p>
+                    <h4>Maria Santos</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contato-form" class="contato-form">
+                <div class="form-group">
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Seu e-mail">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="telefone" name="telefone" required placeholder="Seu telefone">
+                </div>
+                <div class="form-group">
+                    <textarea id="mensagem" name="mensagem" required placeholder="Sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Solicitar Orçamento</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>EletricServices</h3>
+                    <p>Rua das Flores, 123</p>
+                    <p>São Paulo - SP</p>
+                    <p>Tel: (11) 9999-9999</p>
+                    <p>Email: contato@eletricservices.com</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EletricServices. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
